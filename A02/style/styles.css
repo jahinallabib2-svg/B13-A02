@@ -120,3 +120,125 @@
     border-radius: 20px;
 
 }
+.sec-main {
+    max-width: 1440px;
+    height: 400px;
+    background-color: rgba(26, 11, 46, 1);
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 120px;
+}
+.sec-main-2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.sec-main-3 {
+    font-size: 16px;
+    font-weight: 400 ;
+}
+.sec-box-card {
+color: #00FF88;
+}
+.sec-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.sec-box-u {
+    font-size: 13px;
+    font-weight: 400;
+}
+.sec-gr {
+    max-width: 1440px;
+    height: 1300px;
+    background-color: rgba(35, 14, 61, 1);
+    padding: 50px 150px;
+}
+.sec-gr-2 {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+.sec-grm-20 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.sec-grm-30 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.sec-grm {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+   
+}
+.sec-grm-1 {
+    height: 600px;
+    width: 300px;
+    margin-right: 9px;
+    padding-top: 65px ;
+    padding-left: 65px ;
+    padding-right: 65px;
+    padding-bottom: 65px;
+    background-color: rgba(53, 17, 101, 0.4);
+    text-align: center;
+    border-radius: 50px;
+    grid-column: span 1;
+    grid-row: span 2; 
+
+
+}
+.sec-grm-2 {          
+    height: 200px;           
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 50px;            
+    padding-top: 65px ;
+    padding-left: 65px ;
+    padding-bottom: 65px;      
+    
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.sec-grm-3 {
+    margin-top: -9px;
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 50px;            
+    padding-top: 65px ;
+    padding-left: 65px ;
+    padding-bottom: 65px;     
+    padding-right: 65px;
+    
+    grid-column: span 2;
+    grid-row: span 1;
+}
+.sec-grm-4 {
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 50px;   
+    padding-right: 65px;         
+    padding-top: 65px ;
+    padding-left: 65px ;
+    padding-bottom: 65px;     
+    margin-top: 12px;
+    margin-right: 10px;
+     grid-column: span 2;
+    grid-row: span 1;
+}
+.sec-grm-5 {
+    background-color: rgba(53, 17, 101, 0.4);
+    border-radius: 50px;            
+    padding-top: 65px ;
+    padding-left: 65px ;
+    padding-right: 65px;
+    padding-bottom: 65px;     
+    margin-top: 12px;
+     grid-column: span 1;
+    grid-row: span 1;
+}
