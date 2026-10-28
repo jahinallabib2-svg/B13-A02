@@ -1,0 +1,122 @@
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.health {
+    max-width: 1440px;
+}
+.container {
+   
+    background-color: #1A0B2E;
+    .head-container-ltr {
+        color: white;
+    }
+    .head-container-ltr-rtl  {
+     background: linear-gradient(to right, #F7E93F , #FB09B4 , #9100F8 );
+     color: transparent;
+     background-clip: text;
+    }
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 200px;
+    
+}
+.head-container-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 32px;
+    color: white;
+    margin-top: 26px;
+    
+}
+.btn {
+     background: linear-gradient(to right, #F7E93F , #FB09B4 , #9100F8 );
+     color: white;
+    border-radius: 20px;
+    margin-top: 9px;
+    padding: 12px 20px;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    gap: 8px;
+
+}
+.banner {
+ background-image: url(../../assets/hero-bg.png);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 760px;
+ width: 100%;
+}
+.banner-container {
+    color: white;
+    position: absolute;
+    right: 30%;
+    bottom: -2% ;
+    
+    text-align: center;
+    
+}
+.banner-circle-img { 
+    display: flex;
+    justify-content: center;
+
+
+}
+.banner-circle-img-1 {
+    position: absolute;
+    bottom:24%;
+    z-index: 1;
+}
+.banner-circle-img-2 {
+    position: absolute;
+    bottom: 36%;
+    z-index: 2;
+
+}
+.btn-1 {
+    
+     background: linear-gradient(to right, #F7E93F , #FB09B4 , #9100F8 );
+     color: white;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    display: flex;
+  
+    font-weight: 600;
+    gap: 10px;
+}
+.btn-2 {
+    background-color: #2b134b ;
+    color: #00FF88;
+     border-radius: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+   display: flex;
+   font-weight: 600;
+   gap: 8px;
+}
+.banner-content-1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.new-badge {
+    position: absolute;
+    top: -350px;
+    right: 110px;
+    background: #00ff88;
+    color: #000;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 4px 10px ;
+    border-radius: 20px;
+
+}
